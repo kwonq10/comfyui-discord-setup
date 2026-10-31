@@ -1,0 +1,12 @@
+# comfy-discord-skill: 秘密情報・個人環境のファイルを Git に入れない
+.env
+.env.*
+*.env
+configuration.yml
+configuration.yml.*.bak
+setup_progress.json
+install_record.json
+*.log
+logs/
+__pycache__/
+.venv/

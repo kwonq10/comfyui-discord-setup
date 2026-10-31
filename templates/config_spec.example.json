@@ -1,0 +1,21 @@
+{
+  "_comment": "setup_imagesmith.py make-config --spec 用の例。値はすべて英数字。トークンは書かない。",
+  "comfy_url": "http://127.0.0.1:8188",
+  "language": "ja",
+  "show_node_updates": false,
+  "workflows": [
+    {
+      "name": "my_image",
+      "type": "txt2img",
+      "description": "Image generation",
+      "file": "C:/path/to/my_image_api.json",
+      "prompt_node_id": "6",
+      "prompt_input_key": "text",
+      "seed_node_id": "3",
+      "seed_input_key": "seed",
+      "default": true,
+      "allowed_users": ["your_discord_username"],
+      "allowed_channels": ["comfyui-generation"]
+    }
+  ]
+}

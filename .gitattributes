@@ -1,0 +1,2 @@
+# 改行コードを Git 側で正規化する（リポジトリ内は LF、Windows の checkout では各自の設定に従う）
+* text=auto
